@@ -1,0 +1,22 @@
+{
+    "qrCodes": [
+        {
+            "id": 1,
+            "codigo": "https://example.com",
+            "tipo": "url",
+            "descricao": "Link para o site de exemplo"
+        },
+        {
+            "id": 2,
+            "codigo": "BEGIN:VCARD\nFN:John Doe\nORG:Company\nTEL:+1234567890\nEND:VCARD",
+            "tipo": "vcard",
+            "descricao": "Informações de contato de John Doe"
+        },
+        {
+            "id": 3,
+            "codigo": "WiFi:T:WPA;S:ExampleNetwork;P:password123;;",
+            "tipo": "wifi",
+            "descricao": "QR code para se conectar ao Wi-Fi ExampleNetwork"
+        }
+    ]
+}
